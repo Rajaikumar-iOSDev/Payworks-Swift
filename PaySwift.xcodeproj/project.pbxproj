@@ -51,6 +51,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		844FEB7625B343F5003F2CD6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84FBC7612360ADED00A78E49 /* Main.storyboard */,
+				DC1BE236235F1DF600DA2E55 /* Assets.xcassets */,
+				DC1BE238235F1DF600DA2E55 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		844FEB7725B34403003F2CD6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				84FBC75F2360ADBB00A78E49 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		844FEB7825B34413003F2CD6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84FBC75D2360ADA000A78E49 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		C8904F3E8B6863D0A93F8B7A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,11 +108,9 @@
 			isa = PBXGroup;
 			children = (
 				DC1BE22F235F1DED00DA2E55 /* AppDelegate.swift */,
-				84FBC75D2360ADA000A78E49 /* UIView+Extension.swift */,
-				84FBC75F2360ADBB00A78E49 /* ViewController.swift */,
-				84FBC7612360ADED00A78E49 /* Main.storyboard */,
-				DC1BE236235F1DF600DA2E55 /* Assets.xcassets */,
-				DC1BE238235F1DF600DA2E55 /* LaunchScreen.storyboard */,
+				844FEB7825B34413003F2CD6 /* Extensions */,
+				844FEB7725B34403003F2CD6 /* ViewControllers */,
+				844FEB7625B343F5003F2CD6 /* Resources */,
 				DC1BE23B235F1DF600DA2E55 /* Info.plist */,
 				DCC43800235F24E100EEAB3A /* BridgeHeader.h */,
 			);
