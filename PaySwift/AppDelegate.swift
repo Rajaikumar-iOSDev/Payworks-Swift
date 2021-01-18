@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  PaySwift
 //
-//  Created by Ziffity on 22/10/19.
-//  Copyright © 2019 Ziffity. All rights reserved.
+//  Created by Rajai on 22/10/19.
+//  Copyright © 2019 Rajai. All rights reserved.
 //
 
 import UIKit
