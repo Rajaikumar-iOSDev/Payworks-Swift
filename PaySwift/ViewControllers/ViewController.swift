@@ -80,7 +80,7 @@ class ViewController: UIViewController {
             let transactionParameters = MPTransactionParameters.charge(withAmount: NSDecimalNumber(string: variable),
                                                                        currency:MPCurrency.USD,
                                                                        optionals:{ (optionals:MPTransactionParametersOptionals!) in
-                                                                        optionals.subject = "Medical Treatment"
+                                                                        optionals.subject = "Automobile Purchase"
                                                                         optionals.customIdentifier = "yourReferenceForTheTransaction"
             })
             mPosUi.configuration.appearance.navigationBarTint = #colorLiteral(red: 0.05154533684, green: 0.1255731881, blue: 0.2839779854, alpha: 1)
