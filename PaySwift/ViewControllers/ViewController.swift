@@ -63,14 +63,19 @@ class ViewController: UIViewController {
                 variable = "5.00"
             }
             
-            let mPosUi = MPUMposUi.initialize(with: MPProviderMode.TEST,
-                                              merchantIdentifier:"1962eb88-e67b-49b2-b7fa-d4e565d5d4f4",
-                                              merchantSecret:"0HvEP2vUXgIWHsKl0KNTpjMpJKbWFOFw")
+            let mPosUi = MPUMposUi.initialize(with: .LIVE,
+                                              merchantIdentifier:"ID",
+                                              merchantSecret:"secret")
             
-            let accessoryParameters = MPAccessoryParameters.tcpAccessoryParameters(with: MPAccessoryFamily.verifoneVIPA,
-                                                                                   remote:"192.168.91.253",
+            // When using Verifone readers via WiFi or Ethernet, use the following parameters:
+            let accessoryParameters = MPAccessoryParameters.tcpAccessoryParameters(with: .verifoneVIPA,
+                                                                                   remote:"192.168.254.123",
                                                                                    port:16107,
                                                                                    optionals:nil)
+            
+            //When using the Bluetooth Miura, use the following parameters:
+//            let accessoryParameters = MPAccessoryParameters.externalAccessoryParameters(with: .miuraMPI, protocol: "com.miura.shuttle", optionals: nil)
+           // let accessoryParameters = MPAccessoryParameters.mock()
             
             let transactionParameters = MPTransactionParameters.charge(withAmount: NSDecimalNumber(string: variable),
                                                                        currency:MPCurrency.USD,
