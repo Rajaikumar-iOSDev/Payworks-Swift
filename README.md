@@ -2,9 +2,12 @@
 
 This is a demo for the payworks payment gateway SDK integration with iOS-Swift.
 
-## 📄 Tutorial link 
+## 📄 Tutorial in Medium
 
-https://rajaikumar.medium.com/payworks-paybutton-swift-version-3dcc8653af03 
+Click the Medium badge to read the tutorial.
+
+<a href="https://rajaikumar.medium.com/payworks-paybutton-swift-version-3dcc8653af03 "><img src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" height=50></a> 
+
 
 ## 🎥 Demo video 
 
