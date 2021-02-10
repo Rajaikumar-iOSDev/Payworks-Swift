@@ -1,4 +1,4 @@
-# Payworks-Swift
+#💳 Payworks-Swift
 
 This is a demo for the payworks payment gateway SDK integration with iOS-Swift.
 
